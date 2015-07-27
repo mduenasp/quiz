@@ -33,7 +33,7 @@ exports.Quiz=Quiz; //exportar definicion de tabla Quiz
 //crea e inicializa tabla de preguntas en DB
 
 sequelize.sync().then(function(){
-Quiz.count().success(function(count){
+Quiz.count().then(function(count){
 if(count===0){
 	Quiz.create({pregunta:'Capital de Italia',
 		respuesta:'Roma'
