@@ -1,0 +1,101 @@
+2015-07-27T10:06:18.268058+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-07-27T10:06:19.784892+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-07-27T10:06:15.897039+00:00 heroku[web.1]: State changed from crashed to starting
+2015-07-27T10:06:20.479782+00:00 app[web.1]: 
+2015-07-27T10:06:20.479807+00:00 app[web.1]: > quiz@0.0.0 start /app
+2015-07-27T10:06:20.479809+00:00 app[web.1]: > node ./bin/www
+2015-07-27T10:06:20.479810+00:00 app[web.1]: 
+2015-07-27T10:06:20.753251+00:00 app[web.1]: 
+2015-07-27T10:06:20.753262+00:00 app[web.1]: /app/models/models.js:4
+2015-07-27T10:06:20.753264+00:00 app[web.1]: var url=process.env.DATABASE_URL.match(/(.*)\:\/\/(.*?)\:(.*)@(.*)\:(.*)\/(.*)
+2015-07-27T10:06:20.753266+00:00 app[web.1]:                                  ^
+2015-07-27T10:06:20.753267+00:00 app[web.1]: TypeError: Cannot call method 'match' of undefined
+2015-07-27T10:06:20.753268+00:00 app[web.1]:     at Object.<anonymous> (/app/models/models.js:4:34)
+2015-07-27T10:06:20.753269+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2015-07-27T10:06:20.753271+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-27T10:06:20.753272+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2015-07-27T10:06:20.753273+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2015-07-27T10:06:20.753274+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2015-07-27T10:06:20.753276+00:00 app[web.1]:     at require (module.js:380:17)
+2015-07-27T10:06:20.753277+00:00 app[web.1]:     at Object.<anonymous> (/app/controllers/quiz_controller.js:1:74)
+2015-07-27T10:06:20.753278+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2015-07-27T10:06:20.753280+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-27T10:06:20.760332+00:00 app[web.1]: 
+2015-07-27T10:06:20.766736+00:00 app[web.1]: npm ERR! quiz@0.0.0 start: `node ./bin/www`
+2015-07-27T10:06:20.767009+00:00 app[web.1]: npm ERR! Exit status 8
+2015-07-27T10:06:20.767245+00:00 app[web.1]: npm ERR! 
+2015-07-27T10:06:20.767351+00:00 app[web.1]: npm ERR! Failed at the quiz@0.0.0 start script.
+2015-07-27T10:06:20.767869+00:00 app[web.1]: npm ERR! This is most likely a problem with the quiz package,
+2015-07-27T10:06:20.767987+00:00 app[web.1]: npm ERR! not with npm itself.
+2015-07-27T10:06:20.768091+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2015-07-27T10:06:20.768201+00:00 app[web.1]: npm ERR!     node ./bin/www
+2015-07-27T10:06:20.768665+00:00 app[web.1]: npm ERR! You can get their info via:
+2015-07-27T10:06:20.768771+00:00 app[web.1]: npm ERR!     npm owner ls quiz
+2015-07-27T10:06:20.768885+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2015-07-27T10:06:20.769025+00:00 app[web.1]: npm ERR! System Linux 3.13.0-49-generic
+2015-07-27T10:06:20.769227+00:00 app[web.1]: npm ERR! command "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-07-27T10:06:20.769345+00:00 app[web.1]: npm ERR! cwd /app
+2015-07-27T10:06:20.769479+00:00 app[web.1]: npm ERR! node -v v0.10.40
+2015-07-27T10:06:20.769616+00:00 app[web.1]: npm ERR! npm -v 1.4.28
+2015-07-27T10:06:20.769751+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2015-07-27T10:06:20.772461+00:00 app[web.1]: npm ERR! 
+2015-07-27T10:06:20.772571+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
+2015-07-27T10:06:20.772676+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-07-27T10:06:20.772884+00:00 app[web.1]: npm ERR! not ok code 0
+2015-07-27T10:06:21.569609+00:00 heroku[web.1]: Process exited with status 1
+2015-07-27T10:06:23.350741+00:00 app[web.1]: 
+2015-07-27T10:06:23.350761+00:00 app[web.1]: > quiz@0.0.0 start /app
+2015-07-27T10:06:23.350763+00:00 app[web.1]: > node ./bin/www
+2015-07-27T10:06:23.350764+00:00 app[web.1]: 
+2015-07-27T10:06:24.352235+00:00 app[web.1]: 
+2015-07-27T10:06:24.352331+00:00 app[web.1]: /app/models/quiz.js:5
+2015-07-27T10:06:24.352810+00:00 app[web.1]: respuesta: DataTypes.STRING,}});
+2015-07-27T10:06:24.352868+00:00 app[web.1]:                              ^
+2015-07-27T10:06:24.356406+00:00 app[web.1]: SyntaxError: Unexpected token }
+2015-07-27T10:06:24.356409+00:00 app[web.1]:     at Module._compile (module.js:439:25)
+2015-07-27T10:06:24.356411+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-27T10:06:24.356413+00:00 app[web.1]:     at Module.load (module.js:356:32)
+2015-07-27T10:06:24.356414+00:00 app[web.1]:     at Function.Module._load (module.js:312:12)
+2015-07-27T10:06:24.356415+00:00 app[web.1]:     at Module.require (module.js:364:17)
+2015-07-27T10:06:24.356419+00:00 app[web.1]:     at module.exports.Sequelize.import (/app/node_modules/sequelize/lib/sequelize.js:297:63)
+2015-07-27T10:06:24.356417+00:00 app[web.1]:     at require (module.js:380:17)
+2015-07-27T10:06:24.356421+00:00 app[web.1]:     at Module._compile (module.js:456:26)
+2015-07-27T10:06:24.356420+00:00 app[web.1]:     at Object.<anonymous> (/app/models/models.js:30:26)
+2015-07-27T10:06:24.356423+00:00 app[web.1]:     at Object.Module._extensions..js (module.js:474:10)
+2015-07-27T10:06:24.367956+00:00 app[web.1]: 
+2015-07-27T10:06:24.377870+00:00 app[web.1]: npm ERR! Exit status 8
+2015-07-27T10:06:24.378055+00:00 app[web.1]: npm ERR! 
+2015-07-27T10:06:24.379715+00:00 app[web.1]: npm ERR! This is most likely a problem with the quiz package,
+2015-07-27T10:06:24.378157+00:00 app[web.1]: npm ERR! Failed at the quiz@0.0.0 start script.
+2015-07-27T10:06:24.379819+00:00 app[web.1]: npm ERR! not with npm itself.
+2015-07-27T10:06:24.379919+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2015-07-27T10:06:24.380028+00:00 app[web.1]: npm ERR!     node ./bin/www
+2015-07-27T10:06:24.380666+00:00 app[web.1]: npm ERR! You can get their info via:
+2015-07-27T10:06:24.380749+00:00 app[web.1]: npm ERR!     npm owner ls quiz
+2015-07-27T10:06:24.380868+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2015-07-27T10:06:24.381006+00:00 app[web.1]: npm ERR! System Linux 3.13.0-49-generic
+2015-07-27T10:06:24.381164+00:00 app[web.1]: npm ERR! command "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-07-27T10:06:24.381313+00:00 app[web.1]: npm ERR! cwd /app
+2015-07-27T10:06:24.381441+00:00 app[web.1]: npm ERR! node -v v0.10.40
+2015-07-27T10:06:24.381582+00:00 app[web.1]: npm ERR! npm -v 1.4.28
+2015-07-27T10:06:24.385356+00:00 app[web.1]: npm ERR! 
+2015-07-27T10:06:24.381707+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2015-07-27T10:06:24.385476+00:00 app[web.1]: npm ERR! Additional logging details can be found in:
+2015-07-27T10:06:24.385583+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-07-27T10:06:24.385782+00:00 app[web.1]: npm ERR! not ok code 0
+2015-07-27T10:06:24.377338+00:00 app[web.1]: npm ERR! quiz@0.0.0 start: `node ./bin/www`
+2015-07-27T10:06:25.372571+00:00 heroku[web.1]: Process exited with status 1
+2015-07-27T10:06:25.384299+00:00 heroku[web.1]: State changed from starting to crashed
+2015-07-27T10:06:44.390038+00:00 heroku[api]: Scale to web=0 by mduenasp@hotmail.com
+2015-07-27T10:06:44.650964+00:00 heroku[web.1]: State changed from crashed to down
+2015-07-27T10:06:54.131661+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=64e6d403-19f8-4fc9-8da0-b5ba6e95b530 fwd="217.12.24.135" dyno= connect= service= status=503 bytes=
+2015-07-27T10:06:54.010859+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=bb5210e5-b79a-4bbe-ac83-19984500ab31 fwd="199.19.249.196" dyno= connect= service= status=503 bytes=
+2015-07-27T10:09:05.707169+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=7226c591-2bfe-434f-b826-bc0acb594a1b fwd="217.12.24.132" dyno= connect= service= status=503 bytes=
+2015-07-27T10:18:14.937048+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=7ed9dc3a-7d2b-4fa8-8f33-f3bcfb14104a fwd="217.12.24.132" dyno= connect= service= status=503 bytes=
+2015-07-31T10:16:57.859868+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=7955f7f7-99e5-4a4c-9440-be9f75e213c6 fwd="199.19.249.196" dyno= connect= service= status=503 bytes=
+2015-07-31T10:16:57.974924+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=5ec84cd5-e9c5-44bf-8f54-30b5f700fbbe fwd="217.12.24.134" dyno= connect= service= status=503 bytes=
+2015-07-31T10:17:01.095286+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=quiz-mduenasp-2015.herokuapp.com request_id=cd147091-afc8-463e-a68a-c08e7a20bb0b fwd="217.12.24.134" dyno= connect= service= status=503 bytes=
+2015-07-31T10:17:02.054240+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=quiz-mduenasp-2015.herokuapp.com request_id=cae58bba-8401-473e-88e9-0965856591b1 fwd="217.12.24.134" dyno= connect= service= status=503 bytes=
+2015-07-31T17:36:31.374201+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=777ed3af-fb8e-4ec2-b7f8-74b5011709c3 fwd="88.14.22.167" dyno= connect= service= status=503 bytes=
+2015-07-31T17:36:33.382497+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=0605f247-cb79-476f-8fb4-8bf382951aa5 fwd="88.14.22.167" dyno= connect= service= status=503 bytes=
+2015-07-31T18:04:39.731835+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=quiz-mduenasp-2015.herokuapp.com request_id=fbe53e0a-d058-4ee5-85af-e230b71128c1 fwd="88.14.22.167" dyno= connect= service= status=503 bytes=
